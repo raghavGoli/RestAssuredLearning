@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-28T18:39:30 IST" name="Suite" finished-at="2023-10-28T18:40:18 IST" duration-ms="48353">
+  <suite started-at="2023-10-28T20:17:26 IST" name="Suite" finished-at="2023-10-28T20:17:33 IST" duration-ms="7460">
     <groups>
     </groups>
-    <test started-at="2023-10-28T18:39:30 IST" name="Test" finished-at="2023-10-28T18:40:18 IST" duration-ms="48353">
+    <test started-at="2023-10-28T20:17:26 IST" name="Test" finished-at="2023-10-28T20:17:33 IST" duration-ms="7460">
       <class name="com.learning.RestAssured.testScripts.TestCase10_DeleteMethod_ReqRes">
-        <test-method signature="testcase10(org.testng.ITestContext)[pri:0, instance:com.learning.RestAssured.testScripts.TestCase10_DeleteMethod_ReqRes@38cee291]" started-at="2023-10-28T18:40:18 IST" name="testcase10" finished-at="2023-10-28T18:40:18 IST" duration-ms="804" status="PASS">
+        <test-method signature="testcase10(org.testng.ITestContext)[pri:0, instance:com.learning.RestAssured.testScripts.TestCase10_DeleteMethod_ReqRes@38cee291]" started-at="2023-10-28T20:17:33 IST" name="testcase10" finished-at="2023-10-28T20:17:33 IST" duration-ms="615" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,7 +20,7 @@
         </test-method> <!-- testcase10 -->
       </class> <!-- com.learning.RestAssured.testScripts.TestCase10_DeleteMethod_ReqRes -->
       <class name="com.learning.RestAssured.testScripts.TestCase8_PostMethodReqRes">
-        <test-method signature="testcase8(org.testng.ITestContext)[pri:0, instance:com.learning.RestAssured.testScripts.TestCase8_PostMethodReqRes@1e0b4072]" started-at="2023-10-28T18:39:56 IST" name="testcase8" finished-at="2023-10-28T18:40:09 IST" duration-ms="12640" status="PASS">
+        <test-method signature="testcase8(org.testng.ITestContext)[pri:0, instance:com.learning.RestAssured.testScripts.TestCase8_PostMethodReqRes@1e0b4072]" started-at="2023-10-28T20:17:31 IST" name="testcase8" finished-at="2023-10-28T20:17:32 IST" duration-ms="1550" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
         </test-method> <!-- testcase8 -->
       </class> <!-- com.learning.RestAssured.testScripts.TestCase8_PostMethodReqRes -->
       <class name="com.learning.RestAssured.testScripts.TestCase5_DeleteMethod">
-        <test-method signature="testcase5(org.testng.ITestContext)[pri:0, instance:com.learning.RestAssured.testScripts.TestCase5_DeleteMethod@4d154ccd]" started-at="2023-10-28T18:39:55 IST" name="testcase5" finished-at="2023-10-28T18:39:55 IST" duration-ms="45" status="PASS">
+        <test-method signature="testcase5(org.testng.ITestContext)[pri:0, instance:com.learning.RestAssured.testScripts.TestCase5_DeleteMethod@4d154ccd]" started-at="2023-10-28T20:17:29 IST" name="testcase5" finished-at="2023-10-28T20:17:29 IST" duration-ms="60" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
         </test-method> <!-- testcase5 -->
       </class> <!-- com.learning.RestAssured.testScripts.TestCase5_DeleteMethod -->
       <class name="com.learning.RestAssured.testScripts.TestCase9_UpdateMethod_ReqRes">
-        <test-method signature="testcase9(org.testng.ITestContext)[pri:0, instance:com.learning.RestAssured.testScripts.TestCase9_UpdateMethod_ReqRes@791f145a]" started-at="2023-10-28T18:40:09 IST" name="testcase9" finished-at="2023-10-28T18:40:18 IST" duration-ms="9076" status="PASS">
+        <test-method signature="testcase9(org.testng.ITestContext)[pri:0, instance:com.learning.RestAssured.testScripts.TestCase9_UpdateMethod_ReqRes@791f145a]" started-at="2023-10-28T20:17:32 IST" name="testcase9" finished-at="2023-10-28T20:17:33 IST" duration-ms="490" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,13 +59,13 @@
         </test-method> <!-- testcase9 -->
       </class> <!-- com.learning.RestAssured.testScripts.TestCase9_UpdateMethod_ReqRes -->
       <class name="com.learning.RestAssured.testScripts.TestCase6_GETAllEmployeesAndPrintEmployeeID">
-        <test-method signature="testcase6()[pri:0, instance:com.learning.RestAssured.testScripts.TestCase6_GETAllEmployeesAndPrintEmployeeID@229c6181]" started-at="2023-10-28T18:39:55 IST" name="testcase6" finished-at="2023-10-28T18:39:56 IST" duration-ms="728" status="PASS">
+        <test-method signature="testcase6()[pri:0, instance:com.learning.RestAssured.testScripts.TestCase6_GETAllEmployeesAndPrintEmployeeID@229c6181]" started-at="2023-10-28T20:17:29 IST" name="testcase6" finished-at="2023-10-28T20:17:30 IST" duration-ms="1113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase6 -->
       </class> <!-- com.learning.RestAssured.testScripts.TestCase6_GETAllEmployeesAndPrintEmployeeID -->
       <class name="com.learning.RestAssured.testScripts.TestCase4_UpdateMethod">
-        <test-method signature="testcase4(org.testng.ITestContext)[pri:0, instance:com.learning.RestAssured.testScripts.TestCase4_UpdateMethod@65c7a252]" started-at="2023-10-28T18:39:42 IST" name="testcase4" finished-at="2023-10-28T18:39:55 IST" duration-ms="12974" status="PASS">
+        <test-method signature="testcase4(org.testng.ITestContext)[pri:0, instance:com.learning.RestAssured.testScripts.TestCase4_UpdateMethod@65c7a252]" started-at="2023-10-28T20:17:29 IST" name="testcase4" finished-at="2023-10-28T20:17:29 IST" duration-ms="72" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,13 +78,13 @@
         </test-method> <!-- testcase4 -->
       </class> <!-- com.learning.RestAssured.testScripts.TestCase4_UpdateMethod -->
       <class name="com.learning.RestAssured.testScripts.TestCase2_GETAllMethod">
-        <test-method signature="testcase2()[pri:0, instance:com.learning.RestAssured.testScripts.TestCase2_GETAllMethod@5677323c]" started-at="2023-10-28T18:39:42 IST" name="testcase2" finished-at="2023-10-28T18:39:42 IST" duration-ms="79" status="PASS">
+        <test-method signature="testcase2()[pri:0, instance:com.learning.RestAssured.testScripts.TestCase2_GETAllMethod@5677323c]" started-at="2023-10-28T20:17:29 IST" name="testcase2" finished-at="2023-10-28T20:17:29 IST" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase2 -->
       </class> <!-- com.learning.RestAssured.testScripts.TestCase2_GETAllMethod -->
       <class name="com.learning.RestAssured.testScripts.TestCase1_PostMethod">
-        <test-method signature="testcase1(org.testng.ITestContext)[pri:0, instance:com.learning.RestAssured.testScripts.TestCase1_PostMethod@2d52216b]" started-at="2023-10-28T18:39:30 IST" name="testcase1" finished-at="2023-10-28T18:39:42 IST" duration-ms="11770" status="PASS">
+        <test-method signature="testcase1(org.testng.ITestContext)[pri:0, instance:com.learning.RestAssured.testScripts.TestCase1_PostMethod@2d52216b]" started-at="2023-10-28T20:17:26 IST" name="testcase1" finished-at="2023-10-28T20:17:29 IST" duration-ms="2733" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -97,13 +97,13 @@
         </test-method> <!-- testcase1 -->
       </class> <!-- com.learning.RestAssured.testScripts.TestCase1_PostMethod -->
       <class name="com.learning.RestAssured.testScripts.TestCase7_GETParticularReqRes">
-        <test-method signature="testcase7()[pri:0, instance:com.learning.RestAssured.testScripts.TestCase7_GETParticularReqRes@4686afc2]" started-at="2023-10-28T18:39:56 IST" name="testcase7" finished-at="2023-10-28T18:39:56 IST" duration-ms="96" status="PASS">
+        <test-method signature="testcase7()[pri:0, instance:com.learning.RestAssured.testScripts.TestCase7_GETParticularReqRes@4686afc2]" started-at="2023-10-28T20:17:30 IST" name="testcase7" finished-at="2023-10-28T20:17:31 IST" duration-ms="594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase7 -->
       </class> <!-- com.learning.RestAssured.testScripts.TestCase7_GETParticularReqRes -->
       <class name="com.learning.RestAssured.testScripts.TestCase3_GETParticular">
-        <test-method signature="testcase3(org.testng.ITestContext)[pri:0, instance:com.learning.RestAssured.testScripts.TestCase3_GETParticular@18df8434]" started-at="2023-10-28T18:39:42 IST" name="testcase3" finished-at="2023-10-28T18:39:42 IST" duration-ms="63" status="PASS">
+        <test-method signature="testcase3(org.testng.ITestContext)[pri:0, instance:com.learning.RestAssured.testScripts.TestCase3_GETParticular@18df8434]" started-at="2023-10-28T20:17:29 IST" name="testcase3" finished-at="2023-10-28T20:17:29 IST" duration-ms="60" status="PASS">
           <params>
             <param index="0">
               <value>

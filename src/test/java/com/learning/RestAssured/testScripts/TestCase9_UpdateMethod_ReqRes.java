@@ -5,6 +5,7 @@ import java.util.Properties;
 import java.util.Random;
 import java.util.Scanner;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.ISuite;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
@@ -27,12 +28,20 @@ public void testcase9(ITestContext context) throws IOException {
 	String requestBodyData = jsonFileHandling
 			.readJsonFile(System.getProperty("user.dir") + "//src//test/resources//reqresPayload.json");
 	System.out.println("please input the name");
-	Scanner sc =new Scanner(System.in);
+	//Scanner sc =new Scanner(System.in);
 	Random random = new Random();
 	String randomVal = "_automation_" + random.nextInt();
-	String name=sc.next();
-	System.out.println("please input the job");
-	String job=sc.next();
+	//String name=sc.next();
+	//System.out.println("please input the job");
+	//String job=sc.next();
+	
+	String firstName ="firstName_" +RandomStringUtils.randomAlphabetic(3);
+	String lastName ="lastName_" +RandomStringUtils.randomAlphabetic(3);
+	String name =firstName+lastName;
+	String job = "SDET_"+RandomStringUtils.randomAlphanumeric(6);
+	
+	
+	
 	ISuite suite = context.getSuite();
     String returnIDVal = (String) suite.getAttribute("returnIdVal");
     

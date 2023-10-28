@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.Scanner;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.ISuite;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
@@ -25,18 +26,22 @@ public void testcase4(ITestContext context) throws IOException {
 			.readPropertiesFile(System.getProperty("user.dir") + "//src//test//resources//URI.properties");
 	String requestBodyData = jsonFileHandling
 			.readJsonFile(System.getProperty("user.dir") + "//src//test/resources//requestPayload.json");
-	System.out.println("please input the first name to update");
+	//System.out.println("please input the first name to update");
 	
-	Scanner sc =new Scanner(System.in);
-	String first_name=sc.next();
-	System.out.println("please input the last name to update");
-	String last_name=sc.next();
+	
+	String firstName ="firstName_" +RandomStringUtils.randomAlphabetic(6);
+	String lastName ="lastName_" +RandomStringUtils.randomAlphabetic(6);
+	
+	//Scanner sc =new Scanner(System.in);
+	//String first_name=sc.next();
+	//System.out.println("please input the last name to update");
+	//String last_name=sc.next();
 	ISuite suite = context.getSuite();
     String returnIDVal = (String) suite.getAttribute("returnIdVal");
    
 	requestBodyData=jsonVariableValue.jsonVariableReplacement("id", returnIDVal, requestBodyData);
-	requestBodyData=jsonVariableValue.jsonVariableReplacement("firstname", first_name, requestBodyData);
-	requestBodyData=jsonVariableValue.jsonVariableReplacement("lastname", last_name, requestBodyData);
+	requestBodyData=jsonVariableValue.jsonVariableReplacement("firstname", firstName, requestBodyData);
+	requestBodyData=jsonVariableValue.jsonVariableReplacement("lastname", lastName, requestBodyData);
 
 	HTTPMethods http = new HTTPMethods(prop);
 	Response res =http.putHttpMethod(requestBodyData, "APIStudents_URI",returnIDVal);
