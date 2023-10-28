@@ -1,0 +1,7 @@
+{
+	"firstname": "{{firstname}}",
+	"lastname": "{{lastname}}",
+	"DOB": "26-01-2020",
+	"Gender": "Female",
+	"id":"{{id}}"
+}
